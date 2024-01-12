@@ -10,3 +10,32 @@ body {
     background-color: #F1F1E8;
     background-repeat: no-repeat;
 }
+
+.fontLoginLeftSideOne {
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 68px; /* 106.25% */
+    margin-top: 210px;
+    margin-left: 80px;
+}
+
+.fontLoginTwoLeftSideTwo {
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 24px;
+    margin-left: 80px;
+}
+
+.imageOne {
+    width: 516px;
+    height: 513px;
+    flex-shrink: 0;
+    margin-left: 54px;
+}
