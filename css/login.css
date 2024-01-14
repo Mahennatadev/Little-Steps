@@ -3,10 +3,13 @@
     padding: 0;
 }
 
+html {
+    overflow-y: scroll;
+}
+
 body {
     font-family: 'Poppins', sans-serif;
     display: flex;
-    justify-content: space-between;
     background-color: #F1F1E8;
     background-repeat: no-repeat;
 }
@@ -38,4 +41,53 @@ body {
     height: 513px;
     flex-shrink: 0;
     margin-left: 54px;
+}
+
+.fontTitle {
+    color: #333;
+    font-family: 'Poppins', sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.form {
+    border-radius: 24px;
+    border: 1px solid rgba(102, 102, 102, 0.50);
+    background: #FFF;
+    width: 772px;
+    height: 872px;
+    flex-shrink: 0;
+    padding-left: 88px;
+    padding-top: 48px;
+    padding-right: 88px;
+    padding-bottom: 60px;
+}
+
+.wrapper {
+    margin-top: 64px;
+    margin-bottom: 64px;
+    margin-right: 45px;
+    padding-left: 53px;
+}
+
+.top-row {
+    &:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    > div {
+        float:left;
+        width:48%;
+        margin-right:4%;
+        &:last-child { 
+        margin:0;
+        }
+    }
+}
+
+.control-form {
+    display: block;
 }
