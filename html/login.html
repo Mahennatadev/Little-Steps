@@ -7,53 +7,32 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=PT+Sans&family=Poppins:ital,wght@0,300;1,100;1,200;1,400;1,900&family=Urbanist:wght@200&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="/css/login.css">
+    <link rel="stylesheet" type="text/css" href="/css/Login.css">
 </head>
 <body>
     <!-- Content Start -->
     <div>
-        <p class="fontLoginLeftSideOne">Sign Up</p>
+        <p class="fontLoginLeftSideOne">Log In</p>
         <p class="fontLoginTwoLeftSideTwo">“Mom`s Guide To Happiness”</p>
         <img src="/img/LSteps.png" alt="LittleSteps" class="imageOne">
     </div>
     <div class="wrapper">
         <div class="form">
             <div id="signUp">
-                <h1 class="fontTitle">Sign Up Now</h1>
-                <form action="#" method="post">
-                    <div class="top-row">
-                        <div class="control-form">
-                            <label for="firstName">First Name</label>
-                            <input type="text" id="firstName" value="" required>
-                        </div>
-                        <div class="control-form">
-                            <label for="lastName">Last Name</label>
-                            <input type="text" id="lastName" value="" required>
-                        </div>
-                    </div>
-                    <div>
-                        <label for="emailAddress">Email Address</label>
+                <h1 class="fontTitle">Log In Now</h1>
+                <form action="#" method="get">
+                    <div class="data">
+                        <label for="emailAddress">Phone Number or Email</label>
                         <input type="text" id="emailAddress" value="" required>
                     </div>
-                    <div>
-                        <label for="phoneNumber">Phone Number</label>
-                        <input type="text" id="phoneNumber" value="" required>
-                    </div>
-                    <div>
+                    <div class="data">
                         <label for="password">Password</label>
                         <input type="password" id="password" value="" required>
-                        <label>Use 8 or more characters with a mix of letters, numbers & symbols</label>
-                    </div>
-                    <div class="policy">
-                        <input type="checkbox" required>
-                        <p>By creating an account, I agree to our <a href="#">Terms of use</a> and <a href="#">Privacy Policy</a></p>
-                    </div>
-                    <div class="policy">
-                        <input type="checkbox" required>
-                        <p>By creating an account, I am also consenting to receive SMS messages and emails, including product new feature updates, events, and marketing promotions.</p>
+                        <label><a href="#" style="text-decoration: none;">Forgot Password?</a></label>
                     </div>
                     <div class="btn">
-                        <button type="submit">Sign up</button>
+                        <button type="submit">Log In</button>
+                        <p>Don’t have account? <a href="SignUp.html">Sign Up</a></p>
                     </div>
                 </form>
             </div>

@@ -1,6 +1,9 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    outline: none;
 }
 
 html {
@@ -8,7 +11,8 @@ html {
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+    width: 100%;
     display: flex;
     background-color: #F1F1E8;
     background-repeat: no-repeat;
@@ -48,28 +52,26 @@ body {
     font-family: 'Poppins', sans-serif;
     font-size: 32px;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 600;
     line-height: normal;
 }
 
-.form {
+.wrapper {
+    position: relative;
+    margin-top: 64px;
+    margin-bottom: 64px;
+    margin-right: 45px;
     border-radius: 24px;
     border: 1px solid rgba(102, 102, 102, 0.50);
     background: #FFF;
     width: 772px;
-    height: 872px;
+    height: 840px;
     flex-shrink: 0;
     padding-left: 88px;
-    padding-top: 48px;
+    padding-top: 150px;
     padding-right: 88px;
     padding-bottom: 60px;
-}
-
-.wrapper {
-    margin-top: 64px;
-    margin-bottom: 64px;
-    margin-right: 45px;
-    padding-left: 53px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.4);
 }
 
 .top-row {
@@ -90,4 +92,66 @@ body {
 
 .policy {
     display: flex;
+}
+
+.wrapper form .control-form {
+    height: 83px;
+    width: 50%;
+    margin: 32px 0;
+}
+
+form .control-form input {
+    height: 56px;
+    width: 259px;
+    border-radius: 12px;
+    border: 1px solid rgba(102, 102, 102, 0.35);
+    padding-left: 15px;
+}
+
+.wrapper form .data {
+    height: 60px;
+    width: 100%;
+    margin: 40px 0;
+}
+
+form .data input {
+    height: 56px;
+    width: 100%;
+    border-radius: 12px;
+    border: 1px solid rgba(102, 102, 102, 0.35);
+    padding-left: 15px;
+}
+
+.wrapper form .policy {
+    padding-top: 32px;
+}
+
+form .policy p {
+    padding-left: 15px;
+    font-weight: 600;
+}
+
+.wrapper form button {
+    padding-top: 30px;
+    width: 250px;
+    height: 64px;
+    padding: 15px 83px 16px 83px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    font-size: 21px;
+    margin-top: 70px;
+    border-radius: 32px;
+    background-color: #F1F1E8;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+form .btn p {
+    padding-top: 70px;
+    padding-left: 15px;
 }
