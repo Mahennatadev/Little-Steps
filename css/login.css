@@ -88,6 +88,6 @@ body {
     }
 }
 
-.control-form {
-    display: block;
+.policy {
+    display: flex;
 }
