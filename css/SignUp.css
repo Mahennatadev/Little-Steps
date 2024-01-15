@@ -102,7 +102,7 @@ body {
 
 form .control-form input {
     height: 56px;
-    width: 259px;
+    width: 287px;
     border-radius: 12px;
     border: 1px solid rgba(102, 102, 102, 0.35);
     padding-left: 15px;
@@ -111,7 +111,7 @@ form .control-form input {
 .wrapper form .data {
     height: 60px;
     width: 100%;
-    margin: 32px 0;
+    margin-bottom: 32px;
 }
 
 form .data input {
@@ -142,7 +142,12 @@ form .policy p {
     font-size: 21px;
     margin-top: 26px;
     border-radius: 32px;
-    background-color: #F1F1E8;
+    background-color: #7BBE85;
+    color: white;
+    transition: 0.4s;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
 }
 
 .btn {
@@ -154,4 +159,8 @@ form .policy p {
 form .btn p {
     padding-top: 27px;
     padding-left: 15px;
+}
+
+.btn:hover button {
+    opacity: 0.3;
 }
