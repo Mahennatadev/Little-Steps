@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    overflow-y: scroll;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-color: #F1F1E8;
+}
+
+.navbar {
+    padding-top: 30px;
+    padding-bottom: 16px;
+    background: transparent;
+}
+
+.navbar-brand {
+    margin-left: 144px;
+    color: #000;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 1000;
+    line-height: normal;
+}
+
+.navbar-nav a {
+    color: var(--Neutral-D_Grey, #4D4D4D);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px; /* 150% */
+}
+
+.btn {
+    margin-right: 144px;
+    display: flex;
+    padding: 14px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 10px;
+    flex-shrink: 0;
+}
+
+.captionOne {
+    color: #000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-top: 125px;
+}
+
+.captionTwo {
+    color: #000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 300;
+    line-height: normal;  
+    padding-top: 17px;
+}
+
+.content {
+    margin-left: 144px;
+    display: flex;
+}
+
+.parent {
+    position: relative;
+    margin-left: 157px;
+    right: 0;
+}
+
+.image1 {
+    position: relative;
+    left: 170px;
+    top: 180px;
+}
+
+.image2 {
+    position: absolute;
+}
+
+.container-fluid footer {
+    margin-top: 210px;
+    background: var(--Dark, #12101D);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    color: var(--Light2, #FFF);
+}
+
+.left {
+    margin-left: 144px;
+    padding-top: 100px;
+}
+
+.right {
+    padding-top: 50px;
+}
+
+.right hr {
+    width: 50px;
+}
+
+.leftFooter {
+    margin-left: 144px;
+}
+
+.rightFooter {
+    margin-right: 144px;
+}
+
+.s2 {
+    padding-top: 30px;
+    background: var(--Dark3, #181823);
+}
+
+.left h6 {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.left p {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.bi {
+    color: var(--Light2, #FFF);
+}
+
+.leftFooter p {
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.rightFooter h5 {
+    text-align: end;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.right h5 {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.right p {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
