@@ -169,3 +169,8 @@ body {
     font-weight: 400;
     line-height: normal;
 }
+
+.greetings {
+    align-items: center;
+    padding-top: 24px;
+}
