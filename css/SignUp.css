@@ -156,11 +156,15 @@ form .policy p {
     justify-items: center;
 }
 
-form .btn p {
-    padding-top: 27px;
+form .links p {
+    padding-top: 45px;
     padding-left: 15px;
 }
 
 .btn:hover button {
     opacity: 0.3;
+}
+
+.butt {
+    display: flex;
 }
