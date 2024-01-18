@@ -8,6 +8,15 @@ Sebelum itu download xampp untuk menjalankan PHPMYADMID, download xampp pada lin
 - buka localhost -> phpmyadmin
 - buat database littlesteps
 - buat tabel users dengan atribute (terdapat pada folder imgxampp)
+- copy query berikut untuk membuat tabel
+  CREATE TABLE users(
+	        Id int PRIMARY KEY AUTO_INCREMENT,
+	        firstName varchar(75),
+	        lastName varchar(75),
+	        email varchar(50),
+	        phoneNumber varchar(20),
+	        password varchar(50)
+	        );
 - kembali ke file folder
 - copy folder littlesteps yang telah diunduh
 - paste pada xampp/htdocs
