@@ -1,1 +1,18 @@
-
+Cara membuka website
+// github
+- download file littlesteps
+- extract folder
+Sebelum itu download xampp untuk menjalankan PHPMYADMID, download xampp pada link : https://www.apachefriends.org/download.html
+// phpmyadmin
+- jalankan xampp
+- buka localhost -> phpmyadmin
+- buat database littlesteps
+- buat tabel users dengan atribute (terdapat pada folder imgxampp)
+- kembali ke file folder
+- copy folder littlesteps yang telah diunduh
+- paste pada xampp/htdocs
+- buka browser
+- jalankan http://localhost/littlesteps/register.php
+- daftarkan akun (data akan tersimpan dalam batabase)
+- login menggunakan akun yang sudah didaftarkan
+- masuk ke website
